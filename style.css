@@ -5,3 +5,44 @@
     list-style: none;
     text-decoration: none;
 }
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding: 25px 10%;
+}
+.logo img{
+    width: 130px;
+    height: auto;
+}
+.fa-solid{
+    font-size: 35px;
+    color: black;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    color: #000;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .1em;
+    padding: 5px ;
+    margin: 0 20px;
+     border-bottom: 2px solid transparent; 
+    transition: all .42s ease;
+
+}
+.navlist a:hover{
+    color: #E52D2D;
+    border-bottom: 2px solid #E52D2D;
+}
