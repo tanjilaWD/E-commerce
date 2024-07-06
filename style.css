@@ -87,3 +87,18 @@ section{
    line-height: 1.5;
    margin-bottom: 18px;
 }
+.main-text h1 span{
+    color: #E52D2D;
+    text-transform: capitalize;
+}
+.main-text p{
+    font-size: 17px;
+    color: #5b5f64;
+    letter-spacing: 1px;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+.main-text p span{
+    color: #E52D2D;
+    font-weight: bold;
+}
