@@ -20,7 +20,7 @@ header{
     width: 130px;
     height: auto;
 }
-.fa-solid{
+#menu-icon{
     font-size: 35px;
     color: black;
     z-index: 10001;
@@ -135,7 +135,7 @@ section{
 }
 
 @media (max-width:920px) {
-    i{
+   #menu-icon{
         display: block;
     }
     .navlist{
